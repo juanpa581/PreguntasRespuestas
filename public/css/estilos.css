@@ -1,0 +1,271 @@
+#main img{
+    max-height: 70vh;
+    object-fit: cover;
+    /* filter: grayscale(70%); */
+}
+
+.imagenes{
+    width: 1000%;
+    height: 10%;
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.izquierda{
+    background-color: aquamarine;
+    height: 100vh;
+    width: 20%;
+}
+
+.derecha{
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 100vh;
+}
+
+#pantalla-dividida{
+    display: flex;
+}
+
+/* nuevos */
+#footer a, #footerDivider a, #footerDivider{
+    color: black;
+    text-decoration: none;
+}
+
+
+#main img{
+    max-height: 70vh;
+    object-fit: cover;
+    /* filter: grayscale(70%); */
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+
+.btn-visoria{
+    background-color: #283747;
+    color: white;
+}
+
+.btn-visoria:hover{
+    background-color: #34495E;
+    color: white;
+}
+
+#precios{
+    background: #212529;
+    color: white;
+}
+
+#precios img{
+    max-width: 100%;
+}
+
+.tooltip-inner {
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    background-color: #1A5276;
+    border-radius: .25rem;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
+    margin-left: -3px;
+    content: "";
+    border-width: 5px 5px 0;
+    border-top-color: #1A5276;
+    }
+
+    #footer{
+        display: table-cell;
+        background: gray;
+        color: black;
+        position: inherit;
+        /* height: 100%; */
+        position: absolute;
+    }
+
+    #footerDivider{
+        background: white;
+    }
+
+.parrafo{
+    
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.parrafodos{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.tituloparrafo{
+    text-align: center;
+    color: white;
+}
+
+.cuerpo{
+    background-color: #B0E0E6;
+}
+
+.apartamentos{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#somos{
+    text-align: center;
+    color: white;
+}
+
+#apartamentos{
+    text-align: center;
+    color: white;
+}
+
+.mb-4{
+    text-align: center;
+    /* color: white; */
+}
+
+.col{
+    text-align: center;
+    color: white;
+}
+
+.parrafoquienessomos div{
+    
+    background-color: white;
+}
+
+.parrafoquienessomos h1{
+    text-align: center;
+}
+
+.parrafoquienessomos p{
+    /* text-align: center; */
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.btn-registro{
+    background-color: #283747;
+    color: white;
+}
+
+#semaestro div .container{
+    color: black;
+}
+
+#nosotros{
+    background: #212529;
+    color: white;
+}
+
+#nosotros img{
+    max-width: 100%;
+}
+
+h1{
+text-align: center;
+}
+
+.titulo
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+  margin: 20px;
+  color: white;
+  padding-left: 30px;
+}
+
+.hotel1 h3{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+  margin: 20px;
+  color: black;
+  padding-left: 30px;
+}
+
+.hotel1{
+    background-color: white;
+}
+
+#Apartamentos{
+    background-color: white;
+    color: black;
+
+}
+
+#Apartamentos img{
+    max-width: 100%;
+}
+
+#boton{
+    background-color: cornflowerblue;
+}
+
+h2{
+    font-weight: bold;
+}
+#activ{
+    background-color: cornflowerblue;
+}
+
+nav div
+{
+    position:absolute;
+    width:100%;
+    left:0;
+    text-align:center;
+    margin:auto;
+}
